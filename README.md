@@ -1,2 +1,2 @@
-# HPC---Entrega-1
-Entrega numero 1 para la materia de HPC
+# Entrega HPC (High Performance Computer)
+Entrega de ejercicios para la materia de HPC
