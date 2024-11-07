@@ -1,0 +1,60 @@
+C#:
+        dotnet new console -o <nombre_carpeta>
+        dotnet restore 
+        dotnet run
+
+C# with dir:
+        dotnet new console -o <nombre_carpeta>
+
+        estructura:
+                        MiProyecto/
+                        ├── src/
+                        │   ├── Subdirectorio1/
+                        │   │   └── ClaseA.cs
+                        │   ├── Subdirectorio2/
+                        │   │   └── ClaseB.cs
+                        │   └── Program.cs
+                        └── MiProyecto.csproj
+
+        dotnet build
+        dotnet run
+
+
+Git:
+        git config --global user.name "<nombre>"
+        git config --global user.email <email>
+        git add .
+        git commit -m"<mensaje>"
+        git push
+        git clone <url>
+
+Sudo:
+        sudo apt install build-essential
+                - El paquete build-essential incluye el compilador GCC y otras herramientas necesarias para la compilación, como make.
+
+OpenMP:
+        sudo apt update
+        sudo apt upgrade
+        gcc --version : ver la version
+                gcc -fopenmp -o example example.c : el orden no afecta despues del gcc, corroborar informacion
+        export OMP_NUM_THREADS=8 : establesco la cantidad de hilos que quiero usar
+        ./example : ejecutar el programa en C
+
+OpenMPI:
+        install : sudo apt install openmpi-bin openmpi-common libopenmpi-dev
+        mpirun --version
+        mpicc <nombre_archivo> -o <nombre_archivo_compilado>
+        mpirun -np 4 ./<nombre_archivo_compilado>
+                -np 4: indica que se quiere ejecutar el programa en 4 procesos
+
+
+C:
+        sudo apt install gcc
+        gcc <nombre_archivo_codigo_fuente> -o <nombre_ejecutable>
+        ./<nombre_ejecutable>
+        
+
+Linux:
+        lscpu : ver estado del cpu y componentes
+
+Downsloads:
