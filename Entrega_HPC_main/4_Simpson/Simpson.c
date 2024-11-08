@@ -149,8 +149,8 @@ int main() {
     printf("Tiempo paralelo: %.6f segundos\n", end_time_4 - start_time_4);
 
     // Calculo el Speedup
-    double speedup_1_3 = (end_time_1 - start_time_1) / (end_time_3 - start_time_3);  // reemplazar con tiempos reales
-    double speedup_3_8 = (end_time_2 - start_time_2) / (end_time_4 - start_time_4);  // reemplazar con tiempos reales
+    double speedup_1_3 = (end_time_1 - start_time_1) / (end_time_3 - start_time_3);  // reemplazar con tiempos reales obtenidos en los calculos para 1/3
+    double speedup_3_8 = (end_time_2 - start_time_2) / (end_time_4 - start_time_4);  // reemplazar con tiempos reales obtenidos en los calculos para 3/8
 
     printf("Speedup Simpson 1/3: %.2f\n", speedup_1_3);
     printf("Speedup Simpson 3/8: %.2f\n", speedup_3_8);
